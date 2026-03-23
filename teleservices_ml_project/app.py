@@ -3,9 +3,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load model and columns
-model = joblib.load("telehealth_demand_model.pkl")
-feature_columns = joblib.load("feature_columns.pkl")
+
 
 st.title("Telehealth Demand Prediction App")
 
